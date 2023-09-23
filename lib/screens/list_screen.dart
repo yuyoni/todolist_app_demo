@@ -218,7 +218,7 @@ class _ListScreenState extends State<ListScreen> {
                                     context: context,
                                     builder: (BuildContext context) {
                                       return AlertDialog(
-                                        title: Text(' 할 일 삭제하기'),
+                                        title: Text('할 일 삭제하기'),
                                         content: Container(
                                           child: Text('삭제하시겠습니까?'),
                                         ),
