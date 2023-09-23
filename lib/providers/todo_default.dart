@@ -26,7 +26,7 @@ class TodoDefault {
     return newTodo;
   }
 
-  void deletetodo(int id) {
+  void deleteTodo(int id) {
     for (int i = 0; i < dummyTodos.length; i++) {
       if (dummyTodos[i].id == id) {
         dummyTodos.removeAt(i);
